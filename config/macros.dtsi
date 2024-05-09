@@ -1,50 +1,26 @@
-macro_toggle_work_3: macro_toggle_work_3{
+macro_toggle_4: macro_toggle_4{
 compatible = "zmk,behavior-macro";
-label = "macro_toggle_work_3";
+label = "macro_toggle_4";
+#binding-cells = <0>;
+bindings = <&bt BT_SEL 1>, <&kt LEFT_COMMAND>, <&kt LEFT_ALT>, <&kt LCTRL>, <&kt LEFT_SHIFT>, <&kp N4>, <&kt LEFT_COMMAND>, <&kt LEFT_ALT>, <&kt LCTRL>, <&kt LEFT_SHIFT>;
+};
+macro_toggle_3: macro_toggle_3{
+compatible = "zmk,behavior-macro";
+label = "macro_toggle_3";
 #binding-cells = <0>;
 bindings = <&bt BT_SEL 1>, <&kt LEFT_COMMAND>, <&kt LEFT_ALT>, <&kt LCTRL>, <&kt LEFT_SHIFT>, <&kp N3>, <&kt LEFT_COMMAND>, <&kt LEFT_ALT>, <&kt LCTRL>, <&kt LEFT_SHIFT>;
 };
-macro_toggle_work_2: macro_toggle_work_2{
+macro_toggle_2: macro_toggle_2{
 compatible = "zmk,behavior-macro";
-label = "macro_toggle_work_2";
+label = "macro_toggle_2";
 #binding-cells = <0>;
 bindings = <&bt BT_SEL 1>, <&kt LEFT_COMMAND>, <&kt LEFT_ALT>, <&kt LCTRL>, <&kt LEFT_SHIFT>, <&kp N2>, <&kt LEFT_COMMAND>, <&kt LEFT_ALT>, <&kt LCTRL>, <&kt LEFT_SHIFT>;
 };
-macro_toggle_work_1: macro_toggle_work_1{
+macro_toggle_1: macro_toggle_1{
 compatible = "zmk,behavior-macro";
-label = "macro_toggle_work_1";
+label = "macro_toggle_1";
 #binding-cells = <0>;
 bindings = <&bt BT_SEL 1>, <&kt LEFT_COMMAND>, <&kt LEFT_ALT>, <&kt LCTRL>, <&kt LEFT_SHIFT>, <&kp N1>, <&kt LEFT_COMMAND>, <&kt LEFT_ALT>, <&kt LCTRL>, <&kt LEFT_SHIFT>;
-};
-macro_toggle_personal_3: macro_toggle_personal_3{
-compatible = "zmk,behavior-macro";
-label = "macro_toggle_personal_3";
-#binding-cells = <0>;
-bindings = <&bt BT_SEL 1>, <&kt LEFT_COMMAND>, <&kt LEFT_ALT>, <&kt LCTRL>, <&kt LEFT_SHIFT>, <&kp N0>, <&kt LEFT_COMMAND>, <&kt LEFT_ALT>, <&kt LCTRL>, <&kt LEFT_SHIFT>;
-};
-macro_toggle_personal_2: macro_toggle_personal_2{
-compatible = "zmk,behavior-macro";
-label = "macro_toggle_personal_2";
-#binding-cells = <0>;
-bindings = <&bt BT_SEL 1>, <&kt LEFT_COMMAND>, <&kt LEFT_ALT>, <&kt LCTRL>, <&kt LEFT_SHIFT>, <&kp N9>, <&kt LEFT_COMMAND>, <&kt LEFT_ALT>, <&kt LCTRL>, <&kt LEFT_SHIFT>;
-};
-macro_toggle_personal_1: macro_toggle_personal_1{
-compatible = "zmk,behavior-macro";
-label = "macro_toggle_personal_1";
-#binding-cells = <0>;
-bindings = <&bt BT_SEL 1>, <&kt LEFT_COMMAND>, <&kt LEFT_ALT>, <&kt LCTRL>, <&kt LEFT_SHIFT>, <&kp N8>, <&kt LEFT_COMMAND>, <&kt LEFT_ALT>, <&kt LCTRL>, <&kt LEFT_SHIFT>;
-};
-macro_toggle_personal: macro_toggle_personal{
-compatible = "zmk,behavior-macro";
-label = "macro_toggle_personal";
-#binding-cells = <0>;
-bindings = <&kt LEFT_COMMAND>, <&kt LEFT_ALT>, <&kt LCTRL>, <&kt LEFT_SHIFT>, <&kp N8>, <&kp N9>, <&kp N0>, <&kt LEFT_COMMAND>, <&kt LEFT_ALT>, <&kt LCTRL>, <&kt LEFT_SHIFT>, <&bt BT_SEL 0>;
-};
-macro_toggle_work: macro_toggle_work{
-compatible = "zmk,behavior-macro";
-label = "macro_toggle_work";
-#binding-cells = <0>;
-bindings = <&bt BT_SEL 1>, <&kt LEFT_COMMAND>, <&kt LEFT_ALT>, <&kt LCTRL>, <&kt LEFT_SHIFT>, <&kp N1>, <&kp N2>, <&kp N3>, <&kt LEFT_COMMAND>, <&kt LEFT_ALT>, <&kt LCTRL>, <&kt LEFT_SHIFT>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
